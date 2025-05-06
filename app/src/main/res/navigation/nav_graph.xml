@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listaTareasFragment">
+
+    <fragment
+        android:id="@+id/listaTareasFragment"
+        android:name="local.cristian.test.apptareas.ui.ListaTareasFragment"
+        android:label="Lista de Tareas">
+
+        <action
+            android:id="@+id/action_listaTareasFragment_to_nuevaTareaFragment"
+            app:destination="@id/nuevaTareaFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nuevaTareaFragment"
+        android:name="local.cristian.test.apptareas.ui.NuevaTareaFragment"
+        android:label="Nueva Tarea">
+        <argument
+            android:name="indice"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+
+
+
+</navigation>
