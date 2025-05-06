@@ -6,7 +6,7 @@ Autor: Cristian Castro Pena, Grupo A, DAM
 Esta aplicación permite gestionar tareas personales y laborales. El usuario puede:
 
 - Añadir nuevas tareas con título, descripción y categoría.
-- Marcar tareas como realizadas o no realizadas.
+- Marcar tareas como realizada o no realizada.
 - Editar tareas existentes.
 - Eliminar tareas individuales o todas ala vez.
 - Las tareas se guardan de forma persistente, incluso si se cierra la app.
