@@ -46,7 +46,7 @@ La app sigue el patrón MVVM:
 1. La app se inicia mostrando la lista de tareas.
 2. Si no hay tareas, se muestra un mensaje indicando que está vacía.
 3. Puedes pulsar el botón ➕ para añadir una nueva tarea.
-4. Puedes mantener pulsado sobre una tarea para editarla, eliminarla o marcarla como realizada.
+4. Puedes mantener pulsado sobre una tarea para editarla, eliminarla o marcarla como realizada o no.
 5. Las tareas realizadas aparecen con fondo gris claro y texto tachado.
 6. Puedes eliminar todas las tareas desde el menú superior en el icono de papelera, que solo aparece si hay tareas.
 
