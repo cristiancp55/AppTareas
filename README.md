@@ -1,4 +1,5 @@
 # App de Tareas (To-Do List)
+Autor: Cristian Castro Pena, Grupo A, DAM
 
 ## Descripción de la App
 
@@ -51,6 +52,7 @@ La app sigue el patrón MVVM:
 
 ---
 ## Repositorio:
+https://github.com/cristiancp55/AppTareas.git
 
 
 
